@@ -1,0 +1,832 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="error/">
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.1.21">
+    
+    
+      
+        <title>NotificationCat VR Document</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.eebd395e.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#notificationcat" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="NotificationCat VR Document" class="md-header__button md-logo" aria-label="NotificationCat VR Document" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NotificationCat VR Document
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              使用教程
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon" aria-label="Select language">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="/" hreflang="zh" class="md-select__link">
+                    Chinese
+                  </a>
+                </li>
+              
+                <li class="md-select__item">
+                  <a href="en/" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="NotificationCat VR Document" class="md-nav__button md-logo" aria-label="NotificationCat VR Document" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    NotificationCat VR Document
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          使用教程
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        使用教程
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    概述
+  </a>
+  
+    <nav class="md-nav" aria-label="概述">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notificationcat_1" class="md-nav__link">
+    什么是NotificationCat🤔
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    付费软件能给我带来什么💴
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    软件使用配置要求💻
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    安装软件💿
+  </a>
+  
+    <nav class="md-nav" aria-label="安装软件💿">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#windows" class="md-nav__link">
+    Windows🖥️
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#android" class="md-nav__link">
+    Android📱
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iphone" class="md-nav__link">
+    iPhone🍎
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    快速使用🏎️
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-android" class="md-nav__link">
+    - 使用Android® 设备
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-ios" class="md-nav__link">
+    - 使用iOS® 设备
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    吐司模式🍞
+  </a>
+  
+    <nav class="md-nav" aria-label="吐司模式🍞">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    安装教程🚩
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-windows" class="md-nav__link">
+    - 打开Windows 开发者模式
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-uwp" class="md-nav__link">
+    - 下载并安装UWP辅助程序
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    - 吐司模式注意事项
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    用户支持🙌
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="error/" class="md-nav__link">
+        错误手册
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://wintermuted.cn" class="md-nav__link">
+        关于与联系作者
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="en/" class="md-nav__link">
+        User Manual
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="en/error/" class="md-nav__link">
+        Error Manual
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://wintermuted.cn" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    概述
+  </a>
+  
+    <nav class="md-nav" aria-label="概述">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notificationcat_1" class="md-nav__link">
+    什么是NotificationCat🤔
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    付费软件能给我带来什么💴
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    软件使用配置要求💻
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    安装软件💿
+  </a>
+  
+    <nav class="md-nav" aria-label="安装软件💿">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#windows" class="md-nav__link">
+    Windows🖥️
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#android" class="md-nav__link">
+    Android📱
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iphone" class="md-nav__link">
+    iPhone🍎
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    快速使用🏎️
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-android" class="md-nav__link">
+    - 使用Android® 设备
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-ios" class="md-nav__link">
+    - 使用iOS® 设备
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    吐司模式🍞
+  </a>
+  
+    <nav class="md-nav" aria-label="吐司模式🍞">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    安装教程🚩
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-windows" class="md-nav__link">
+    - 打开Windows 开发者模式
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-uwp" class="md-nav__link">
+    - 下载并安装UWP辅助程序
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    - 吐司模式注意事项
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    用户支持🙌
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="notificationcat">欢迎来到NotificationCat 使用手册</h1>
+<p>感谢您从Itch.io 或 Steam 商店购买此软件🤗此软件制作的目的是为了帮助<a href="https://wintermuted.cn">请在此键入汉化组名称汉化组</a>解决汉化资金问题。以便于汉化组汉化项目的顺利进行和日常维护支出！</p>
+<p>版本更新：首日更新PC v1.1  / Android v1 / UWP v1.0.0.0       </p>
+<ul>
+<li>添加QRcode二维码连接功能与说明</li>
+<li>使用说明网站新增在线客服功能</li>
+<li>使用说明网站新增二维码连接功能相关错误与UWP辅助程序全屏勿扰提示</li>
+<li>使用说明网站新增Github反馈通道</li>
+<li>Android 程序系统要求由Android 10 降至Android 8</li>
+<li>UWP辅助程序修复因标题错乱暂时禁用标题功能（将在下一个版本恢复）</li>
+</ul>
+<h2 id="_1">概述</h2>
+<h3 id="notificationcat_1">什么是NotificationCat🤔</h3>
+<p>NotificationCat VR（通知猫咪VR）是一个基于<a href="https://github.com/BOLL7708/OpenVRNotificationPipe">BOLL7708开源项目OpenVRNotificationPipe</a>的消息通知转发工具。</p>
+<p>这个工具可以在您游玩VR时，将Android® 设备或 iOS® 设备上的通知消息转发到VR中。让您无需摘下头戴显示器（VR）便可获取通知消息的具体信息，如通知标题，通知内容等。</p>
+<h3 id="_2">付费软件能给我带来什么💴</h3>
+<p><strong>同时支持Android®与iOS®设备📱：</strong>您可能会使用过其他类似的通知转发VR的软件，但我们是支持iOS最完善的一款！</p>
+<p><strong>长期更新与开发者支持👍：</strong>通知猫咪VR作为一款付费应用，拥有长期的更新计划与完善的开发者支持。我们不仅会在软件的生命周期中添加新的功能，还会响应来自用户的反馈。包括采纳新功能建议与修复BUG！</p>
+<p><strong>超级快的工单支持📧：</strong>在使用软件时遇到问题？软件支持通过各种联系方式联系作者并为您提供帮助！</p>
+<p><strong>支持汉化组的工作😘：</strong>您的购买会帮助汉化组解决汉化项目或日常维护所面临的资金问题，帮助我们制作出更好的主机游戏汉化作品！</p>
+<h3 id="_3">软件使用配置要求💻</h3>
+<p><strong>PC 操作系统：</strong> Windows 10 Version 1809 秋季更新或以上版本</p>
+<blockquote>
+<p>如果您的操作系统低于 Windows 10 Version 1809 秋季更新以上版本，则吐司模式不可用。您无法将iOS®设备的消息转发至VR！</p>
+</blockquote>
+<p><strong>Android 操作系统：</strong>Android 10 或以上版本</p>
+<blockquote>
+<p>如果您的Android® 操作系统版本低于Android 8，则无法运行通知猫咪VR的Android®程序。</p>
+</blockquote>
+<div class="admonition warning">
+<p class="admonition-title">针对华为HarmonyOS</p>
+<p>HarmonyOS并未经过开发者测试，如果你的HarmonyOS满足Android 10 API或以上版本则理论上可以使用通知猫咪VR的Android®程序。但可能会出现出乎意料的错误，且HarmonyOS不在工单支持的范围内。</p>
+</div>
+<p><strong>iOS 操作系统：</strong>iOS 14.0 或更高版本的 iPhone</p>
+<h2 id="_4">安装软件💿</h2>
+<h3 id="windows">Windows🖥️</h3>
+<ol>
+<li>从您的软件购买处下载并安装软件</li>
+<li>运行软件（在此处遇到问题？请参考：<a href="error/">错误手册</a> 页面来解决。）</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">考虑开启随SteamVR启动</p>
+<p>此选项可以让程序在SteamVR启动时自启动，从而避免每次游玩VR时手动开启软件。</p>
+</div>
+<h3 id="android">Android📱</h3>
+<ol>
+<li>从<a href="download/">受欢迎的认证应用程序市场—ApkPure</a>或从<a href="download/">此网站</a>下载通知猫咪VR的Android®程序。</li>
+<li>安装APK应用程序</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">为何无法从Google Play获取应用？怎能证明该应用安全性？</p>
+<p>Google Play会对每个上架其应用市场的开发者账户收取一笔注册资金。我们暂时无力支付，不过让程序登录Google Play商店在软件的更新计划中。且应用通过受欢迎的认证应用程序市场ApkPure人工审核，足可以证明程序中不包含任何恶意代码。</p>
+</div>
+<h3 id="iphone">iPhone🍎</h3>
+<ol>
+<li>从Apple Store中下载 <a href="https://apps.microsoft.com/store/detail/%E6%89%8B%E6%9C%BA%E8%BF%9E%E6%8E%A5/9NMPJ99VJBWV?hl=zh-cn&amp;gl=cn">手机链接</a></li>
+<li>参考 <a href="#_6">吐司模式</a></li>
+</ol>
+<h2 id="_5">快速使用🏎️</h2>
+<p>启动SteamVR后，打开软件时您的状态栏应该均显示为在线（在此处遇到问题？请参考：<a href="error/">错误手册</a> 页面来解决。）
+<img alt="均显示在线" src="image/status_green.png" /></p>
+<h2 id="-android">- 使用Android® 设备</h2>
+<p>打开通知猫咪VR的Android® 程序，会弹出通知获取权限的设置页面。
+  <img alt="设置首页" src="image/android_noti_setting1.png" /></p>
+<p>点击NotificationCatVR,进入通知权限获取的应用详细页</p>
+<p><img alt="详细页" src="image/android_noti_setting2.png" /></p>
+<p>允许程序获得所有通知的权限</p>
+<p><img alt="允许页面" src="image/android_noti_setting3.png" /></p>
+<p>返回到应用内，输入电脑ip地址后点击连接或直接扫描二维码，连接成功后电脑会弹出提示。</p>
+<p><img alt="成功提示" src="image/android_noti_setting4.png" />
+  （在此处遇到问题？请参考：<a href="error/">错误手册</a> 页面来解决。）</p>
+<div class="admonition warning">
+<p class="admonition-title">国产Android OS须知</p>
+<p>每次启动应用时都必须重新关闭——开启“获取所有应用程序通知”的权限，否则将出现无法获取消息或产生出乎意料的错误。类原生OS如Google Pixel等不受影响！</p>
+</div>
+<h2 id="-ios">- 使用iOS® 设备</h2>
+<p>将您的iPhone手机与微软程序“手机链接”连接，确保“手机链接”可以正常获取iPhone通知。
+<img alt="手机链接" src="image/ios_noti_1.png" /></p>
+<p>勾选NotificationVR 程序上的 吐司模式支持（实验性）</p>
+<p><img alt="吐司支持" src="image/ios_noti_2.png" /></p>
+<p>在弹出的吐司模式辅助程序中允许获取通知权限即可。</p>
+<p><img alt="Toast权限" src="image/ios_noti_3.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">吐司模式说明</p>
+<p>吐司模式需要特殊配置才能使用，如果您勾选吐司模式后提示“没有可打开此链接的应用”请参考 <a href="#_6">吐司模式</a> 一节</p>
+</div>
+<h2 id="_6">吐司模式🍞</h2>
+<p>吐司模式是本软件的特色之一</p>
+<blockquote>
+<p>由于Apple 开发者政策原因和保护iOS设备的安全性，苹果公司不允许一般开发者/软件公司使用“获取iPhone上所有系统通知”的权限。</p>
+</blockquote>
+<p>而由Microsoft 微软开发的Windows应用“手机链接 Phone Link”则允许用户将其iPhone连接至Windows并获取Toast通知。但非Windows Mixed Reality 用户（如使用VIVE,Oculus等设备）无法将Windows上的Toast通知转发至VR中。</p>
+<p>为了将使用VIVE,Oculus，Index等设备的用户Toast通知转发至SteamVR，通知猫咪VR开发了UWP辅助程序来帮助转发，此UWP程序需要手动安装。</p>
+<h3 id="_7">安装教程🚩</h3>
+<h2 id="-windows">- 打开Windows 开发者模式</h2>
+<p>必须打开Windows 开发者模式，才能安装未经Microsoft Store授权的UWP应用，在设置中搜索开发者来跳转到开发者模式页面。</p>
+<p><img alt="搜索开发者" src="image/windows_dev_1.png" /></p>
+<p>打开开发者模式</p>
+<p><img alt="打开开发者模式" src="image/windows_dev_2.png" /></p>
+<h2 id="-uwp">- 下载并安装UWP辅助程序</h2>
+<p>从此处下载<a href="download/">UWP辅助程序</a></p>
+<p>右键cer证书，选择安装，选择“将所有的证书都放入下列存储”，选择“受信任的根证书颁发机构”</p>
+<p><img alt="cer" src="image/windows_dev_4.png" /></p>
+<p>双击msibundle文件，在安装界面中点击安装。</p>
+<p><img alt="安装msibundle" src="image/windows_dev_3.png" /></p>
+<p>（在此处遇到问题？请参考：<a href="error/">错误手册</a> 页面来解决。）</p>
+<ul>
+<li>关闭Windows 运行全屏程序时自动免打扰功能</li>
+</ul>
+<p>在设置——系统——通知 中 关闭所有 自动启动“请勿打扰”选项</p>
+<p><img alt="关闭所有" src="image/windows_no_noti.png" /></p>
+<h2 id="-">- 吐司模式注意事项</h2>
+<ol>
+<li>使用吐司模式时Windows不能设置为 “夜间模式” “勿扰” 等任何影响通知展示的模式或情景设置！</li>
+<li>使用吐司模式时不能关闭手机链接应用。</li>
+<li>使用吐司模式时不能关闭UWP辅助程序。</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">关于“手机链接”应用程序的错误处理</p>
+<p>“手机链接”是微软开发的应用程序。任何有关手机链接的问题应向微软寻求帮助！</p>
+</div>
+<h2 id="_8">用户支持🙌</h2>
+<p>由于静态文档的局限性，软件允许用户向开发者提交工单来获取帮助。</p>
+<p><a href="https://wintermuted.cn">通过开发者博客</a> 
+<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2601677867&amp;site=qq&amp;menu=yes">通过QQ</a> 
+<a href="mailto:2601677867@qq.com">通过电子邮件</a>
+<a href="https://github.com">通过Github issues</a></p>
+<p>无论是通过工单还是即时聊天软件，您必须提供您的以下信息：</p>
+<ul>
+<li>称呼</li>
+<li>Itch.io或Steam商店的购买凭据（ID单号或截图均可）</li>
+<li>设备详细信息（Windows操作系统版本，Android版本或ios版本）</li>
+<li>问题的详细描述</li>
+<li>您尝试做了什么操作来解决此问题但是失败了</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">提交工单前请仔细阅读排错手册</p>
+<p>处理工单的开发者精力有限，请避免提交“报错手册”中重复的问题至工单</p>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright Vortex Studio 2018 - 2023 Android is a trademark of Google LLC 
+ iPhone, iCloud, iPad, iPadOS and macOS are trademarks of Apple Inc.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+        
+          <script src="javascripts/extra.js"></script>
+        
+      
+    
+  </body>
+</html>

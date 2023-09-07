@@ -1,0 +1,1015 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.1.21">
+    
+    
+      
+        <title>Error Manual - NotificationCat VR Document</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.eebd395e.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#welcome-to-the-notificationcat-error-handling-manual" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="NotificationCat VR Document" class="md-header__button md-logo" aria-label="NotificationCat VR Document" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NotificationCat VR Document
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Error Manual
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon" aria-label="Select language">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="/" hreflang="zh" class="md-select__link">
+                    Chinese
+                  </a>
+                </li>
+              
+                <li class="md-select__item">
+                  <a href="../" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="NotificationCat VR Document" class="md-nav__button md-logo" aria-label="NotificationCat VR Document" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    NotificationCat VR Document
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        使用教程
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../error/" class="md-nav__link">
+        错误手册
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://wintermuted.cn" class="md-nav__link">
+        关于与联系作者
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        User Manual
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Error Manual
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Error Manual
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pc-errors" class="md-nav__link">
+    PC Errors 💻
+  </a>
+  
+    <nav class="md-nav" aria-label="PC Errors 💻">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#program-unresponsive-at-startup-missing-net-framework-runtime-prompt-program-crashes-at-startup" class="md-nav__link">
+    Program Unresponsive at Startup / Missing .Net Framework Runtime Prompt / Program Crashes at Startup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openvr-state-always-offline-or-error-even-after-reinstalling-the-program-or-restarting-steamvr" class="md-nav__link">
+    OpenVR State Always "Offline" or "Error," Even After Reinstalling the Program or Restarting SteamVR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notification-server-state-always-offline-or-error-even-after-reinstalling-the-program-or-restarting-the-computer" class="md-nav__link">
+    Notification Server State Always "Offline" or "Error," Even After Reinstalling the Program or Restarting the Computer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-when-starting-the-notification-server-please-refer-to-the-error-manual-to-resolve-this-issue" class="md-nav__link">
+    Error When Starting the Notification Server, Please Refer to the Error Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-when-connecting-phone-to-the-notification-server-please-refer-to-the-error-manual-to-resolve-this-issue" class="md-nav__link">
+    Error When Connecting Phone to the Notification Server, Please Refer to the Error Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-when-processing-data-in-the-client-please-refer-to-the-error-manual-to-resolve-this-issue" class="md-nav__link">
+    Error When Processing Data in the Client, Please Refer to the Error Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-when-starting-toast-mode-please-refer-to-the-error-manual-to-resolve-this-issue" class="md-nav__link">
+    Error When Starting Toast Mode, Please Refer to the Error Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-when-starting-toast-mode-get-the-app-to-open-this-ncatvr-link" class="md-nav__link">
+    Error When Starting Toast Mode, "Get the app to open this 'ncatvr' link"
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#startup-with-steamvr-doesnt-work-or-program-doesnt-remember-my-options-on-next-startup" class="md-nav__link">
+    Startup with SteamVR Doesn't Work or Program Doesn't Remember My Options on Next Startup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#starting-notificationcat-vr-with-steamvr-causes-steamvr-to-crash-or-notificationcat-vr-crashes-steamvr" class="md-nav__link">
+    Starting NotificationCat VR with SteamVR Causes SteamVR to Crash, or NotificationCat VR Crashes SteamVR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crash-when-receiving-notifications-after-phone-connection-or-enabling-toast-mode" class="md-nav__link">
+    Crash When Receiving Notifications After Phone Connection (or Enabling Toast Mode)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#program-unable-to-obtain-computer-ip-address-possibly-due-to-multiple-network-adapters-or-ipv4-addresses-on-your-computer-please-refer-to-the-error-handling-manual-to-resolve-this-issue" class="md-nav__link">
+    Program Unable to Obtain Computer IP Address, Possibly Due to Multiple Network Adapters or IPv4 Addresses on Your Computer, Please Refer to the Error Handling Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#android-errors" class="md-nav__link">
+    Android Errors 📱
+  </a>
+  
+    <nav class="md-nav" aria-label="Android Errors 📱">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unable-to-install-apk-package" class="md-nav__link">
+    Unable to Install APK Package
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app-crashes-or-becomes-unresponsive-after-opening" class="md-nav__link">
+    App Crashes or Becomes Unresponsive After Opening
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unable-to-retrieve-version-number-from-update-server-please-refer-to-the-error-manual-to-resolve-this-issue" class="md-nav__link">
+    Unable to Retrieve Version Number from Update Server, Please Refer to the Error Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connection-failed-please-refer-to-the-error-manual-to-resolve-this-issue" class="md-nav__link">
+    Connection Failed, Please Refer to the Error Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app-goes-to-background-or-switches-to-other-apps-and-notification-messages-are-not-forwarded" class="md-nav__link">
+    App Goes to Background or Switches to Other Apps, and Notification Messages Are Not Forwarded
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#successful-connection-but-the-program-doesnt-forward-any-messages" class="md-nav__link">
+    Successful Connection, but the Program Doesn't Forward Any Messages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qr-code-connection-mode-doesnt-start-camera-or-hangs" class="md-nav__link">
+    QR Code Connection Mode Doesn't Start Camera or Hangs
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#toast-mode" class="md-nav__link">
+    Toast Mode 🍞
+  </a>
+  
+    <nav class="md-nav" aria-label="Toast Mode 🍞">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#program-hangs-at-the-logo-after-startup-app-crashes-after-startup" class="md-nav__link">
+    Program Hangs at the Logo After Startup / App Crashes After Startup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#your-system-currently-doesnt-support-toast-notification-forwarding-please-refer-to-the-user-manual-to-resolve-this-issue" class="md-nav__link">
+    Your System Currently Doesn't Support Toast Notification Forwarding, Please Refer to the User Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#you-must-allow-the-app-to-read-notifications-please-refer-to-the-user-manual-to-resolve-this-issue" class="md-nav__link">
+    You Must Allow the App to Read Notifications, Please Refer to the User Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-during-permission-handling-please-refer-to-the-user-manual-to-resolve-this-issue" class="md-nav__link">
+    Error During Permission Handling, Please Refer to the User Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unable-to-connect-to-the-notification-server-please-refer-to-the-error-manual-to-resolve-this-issue" class="md-nav__link">
+    Unable to Connect to the Notification Server! Please Refer to the Error Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uwp-auxiliary-program-doesnt-forward-my-windows-notifications" class="md-nav__link">
+    UWP Auxiliary Program Doesn't Forward My Windows Notifications
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unlisted-errors" class="md-nav__link">
+    Unlisted Errors ❌
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://wintermuted.cn" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pc-errors" class="md-nav__link">
+    PC Errors 💻
+  </a>
+  
+    <nav class="md-nav" aria-label="PC Errors 💻">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#program-unresponsive-at-startup-missing-net-framework-runtime-prompt-program-crashes-at-startup" class="md-nav__link">
+    Program Unresponsive at Startup / Missing .Net Framework Runtime Prompt / Program Crashes at Startup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openvr-state-always-offline-or-error-even-after-reinstalling-the-program-or-restarting-steamvr" class="md-nav__link">
+    OpenVR State Always "Offline" or "Error," Even After Reinstalling the Program or Restarting SteamVR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notification-server-state-always-offline-or-error-even-after-reinstalling-the-program-or-restarting-the-computer" class="md-nav__link">
+    Notification Server State Always "Offline" or "Error," Even After Reinstalling the Program or Restarting the Computer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-when-starting-the-notification-server-please-refer-to-the-error-manual-to-resolve-this-issue" class="md-nav__link">
+    Error When Starting the Notification Server, Please Refer to the Error Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-when-connecting-phone-to-the-notification-server-please-refer-to-the-error-manual-to-resolve-this-issue" class="md-nav__link">
+    Error When Connecting Phone to the Notification Server, Please Refer to the Error Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-when-processing-data-in-the-client-please-refer-to-the-error-manual-to-resolve-this-issue" class="md-nav__link">
+    Error When Processing Data in the Client, Please Refer to the Error Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-when-starting-toast-mode-please-refer-to-the-error-manual-to-resolve-this-issue" class="md-nav__link">
+    Error When Starting Toast Mode, Please Refer to the Error Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-when-starting-toast-mode-get-the-app-to-open-this-ncatvr-link" class="md-nav__link">
+    Error When Starting Toast Mode, "Get the app to open this 'ncatvr' link"
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#startup-with-steamvr-doesnt-work-or-program-doesnt-remember-my-options-on-next-startup" class="md-nav__link">
+    Startup with SteamVR Doesn't Work or Program Doesn't Remember My Options on Next Startup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#starting-notificationcat-vr-with-steamvr-causes-steamvr-to-crash-or-notificationcat-vr-crashes-steamvr" class="md-nav__link">
+    Starting NotificationCat VR with SteamVR Causes SteamVR to Crash, or NotificationCat VR Crashes SteamVR
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crash-when-receiving-notifications-after-phone-connection-or-enabling-toast-mode" class="md-nav__link">
+    Crash When Receiving Notifications After Phone Connection (or Enabling Toast Mode)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#program-unable-to-obtain-computer-ip-address-possibly-due-to-multiple-network-adapters-or-ipv4-addresses-on-your-computer-please-refer-to-the-error-handling-manual-to-resolve-this-issue" class="md-nav__link">
+    Program Unable to Obtain Computer IP Address, Possibly Due to Multiple Network Adapters or IPv4 Addresses on Your Computer, Please Refer to the Error Handling Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#android-errors" class="md-nav__link">
+    Android Errors 📱
+  </a>
+  
+    <nav class="md-nav" aria-label="Android Errors 📱">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unable-to-install-apk-package" class="md-nav__link">
+    Unable to Install APK Package
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app-crashes-or-becomes-unresponsive-after-opening" class="md-nav__link">
+    App Crashes or Becomes Unresponsive After Opening
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unable-to-retrieve-version-number-from-update-server-please-refer-to-the-error-manual-to-resolve-this-issue" class="md-nav__link">
+    Unable to Retrieve Version Number from Update Server, Please Refer to the Error Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connection-failed-please-refer-to-the-error-manual-to-resolve-this-issue" class="md-nav__link">
+    Connection Failed, Please Refer to the Error Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app-goes-to-background-or-switches-to-other-apps-and-notification-messages-are-not-forwarded" class="md-nav__link">
+    App Goes to Background or Switches to Other Apps, and Notification Messages Are Not Forwarded
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#successful-connection-but-the-program-doesnt-forward-any-messages" class="md-nav__link">
+    Successful Connection, but the Program Doesn't Forward Any Messages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qr-code-connection-mode-doesnt-start-camera-or-hangs" class="md-nav__link">
+    QR Code Connection Mode Doesn't Start Camera or Hangs
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#toast-mode" class="md-nav__link">
+    Toast Mode 🍞
+  </a>
+  
+    <nav class="md-nav" aria-label="Toast Mode 🍞">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#program-hangs-at-the-logo-after-startup-app-crashes-after-startup" class="md-nav__link">
+    Program Hangs at the Logo After Startup / App Crashes After Startup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#your-system-currently-doesnt-support-toast-notification-forwarding-please-refer-to-the-user-manual-to-resolve-this-issue" class="md-nav__link">
+    Your System Currently Doesn't Support Toast Notification Forwarding, Please Refer to the User Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#you-must-allow-the-app-to-read-notifications-please-refer-to-the-user-manual-to-resolve-this-issue" class="md-nav__link">
+    You Must Allow the App to Read Notifications, Please Refer to the User Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-during-permission-handling-please-refer-to-the-user-manual-to-resolve-this-issue" class="md-nav__link">
+    Error During Permission Handling, Please Refer to the User Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unable-to-connect-to-the-notification-server-please-refer-to-the-error-manual-to-resolve-this-issue" class="md-nav__link">
+    Unable to Connect to the Notification Server! Please Refer to the Error Manual to Resolve This Issue
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uwp-auxiliary-program-doesnt-forward-my-windows-notifications" class="md-nav__link">
+    UWP Auxiliary Program Doesn't Forward My Windows Notifications
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unlisted-errors" class="md-nav__link">
+    Unlisted Errors ❌
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="welcome-to-the-notificationcat-error-handling-manual">Welcome to the NotificationCat Error Handling Manual</h1>
+<p>Thank you for purchasing this software from Itch.io or the Steam store 🤗 The content on this page will assist you in troubleshooting errors encountered while running the software. If you encounter an error not covered in this manual, please use the contact methods provided in the <a href="../#_8">User Support</a> section to submit a support ticket and seek assistance from the developers!</p>
+<div class="admonition note">
+<p class="admonition-title">Utilize the Website Search Function</p>
+<p>Using the search function to look up error messages will save you time when navigating the documentation.</p>
+</div>
+<h2 id="pc-errors">PC Errors 💻</h2>
+<p>This section covers errors and solutions for NotificationCat VR on PC.</p>
+<h4 id="program-unresponsive-at-startup-missing-net-framework-runtime-prompt-program-crashes-at-startup">Program Unresponsive at Startup / Missing .Net Framework Runtime Prompt / Program Crashes at Startup</h4>
+<p>When a program fails to start without any error messages or exceptional behavior, it can be a complex issue for developers to diagnose. In such cases, when you encounter these situations, it's recommended to try the following steps:</p>
+<ol>
+<li>Completely uninstall the NotificationCat VR program.</li>
+<li>Delete the path to the NotificationCat VR program's app.vrmanifest in the appconfig.json file located in the Steam/config folder (usually generated after using the "Launch with SteamVR" feature).</li>
+<li>Attempt to reinstall the program.</li>
+</ol>
+<p>If the above steps fail to resolve the abnormal behavior of the application, please submit a support ticket to the developers.</p>
+<p>This program was developed using .Net Framework 4.7.2. Running the program without the .NET Runtime installed on your computer may result in runtime errors. Please download and install the <a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472">.Net Framework 4.7.2 Runtime</a> and try again.</p>
+<h4 id="openvr-state-always-offline-or-error-even-after-reinstalling-the-program-or-restarting-steamvr">OpenVR State Always "Offline" or "Error," Even After Reinstalling the Program or Restarting SteamVR</h4>
+<p>This is a rare OpenVR service error. If you encounter this situation, try setting the OpenXR runtime to SteamVR:</p>
+<ol>
+<li>Open SteamVR and display the Advanced Settings in the settings window.</li>
+<li>Navigate to the OpenXR tab.</li>
+<li>Click to set SteamVR as the OpenXR runtime.</li>
+</ol>
+<p>If setting SteamVR as the OpenXR runtime doesn't resolve the issue of OpenVR state remaining "Offline" or "Error," or if the OpenXR runtime is already set to SteamVR, please submit a support ticket to the developers.</p>
+<h3 id="notification-server-state-always-offline-or-error-even-after-reinstalling-the-program-or-restarting-the-computer">Notification Server State Always "Offline" or "Error," Even After Reinstalling the Program or Restarting the Computer</h3>
+<p>If you receive an error related to the notification server when launching the program, please refer to the relevant error solutions. If you don't encounter any notification server error prompts, please submit a support ticket to the developers.</p>
+<h3 id="error-when-starting-the-notification-server-please-refer-to-the-error-manual-to-resolve-this-issue">Error When Starting the Notification Server, Please Refer to the Error Manual to Resolve This Issue</h3>
+<p>Before troubleshooting this issue, please check your Windows system environment. This software uses TCP ports 8077 and 8079 for communication. Any firewall rules or port occupation related to these ports could lead to the notification server remaining "Offline" or "Error," along with displaying this error prompt.</p>
+<p>How to check if the ports are functioning normally:</p>
+<ol>
+<li>Close the NotificationCat VR program.</li>
+<li>Press the Win key + R key on your keyboard to open the Run window, type cmd, and press Enter.</li>
+<li>In the Cmd window, input the following commands and check the results:</li>
+</ol>
+<pre><code>netstat -ano |findstr &quot;8077&quot;
+Press Enter and then continue with
+netstat -ano |findstr &quot;8079&quot;
+</code></pre>
+<p>Under normal circumstances, there should be no output when you input the above commands. If you see output similar to the image below, it indicates that a program is occupying the mentioned ports.</p>
+<p><img alt="Port Occupation" src="../image/port_take.png" /></p>
+<p>Use the following command to find information about the occupying program:</p>
+<pre><code>tasklist|findstr &quot;ending digits of the command output&quot;
+</code></pre>
+<p>This command will return the process name of the occupying program. You can use the Windows Task Manager to find the program's specific location and information.</p>
+<p>If you don't encounter any port occupation issues, please check your firewall rules:</p>
+<ol>
+<li>Close the NotificationCat VR program.</li>
+<li>Press the Win key + R key on your keyboard to open the Run window, type control, and press Enter.</li>
+<li>Go to Windows Defender Firewall and select Advanced Settings on the left.</li>
+<li>In both Outbound Rules and Inbound Rules, delete any restrictions related to ports 8077 and 8079.</li>
+<li>Restart your computer and run the software again.</li>
+</ol>
+<p>If you have checked the firewall and port occupation and still haven't found any settings affecting program communication, please submit a support ticket to the developers.</p>
+<div class="admonition warning">
+<p class="admonition-title">Attention to Antivirus Software</p>
+<p>Some antivirus programs might block application network communication. If you encounter such errors, try disabling your antivirus software and then retry.</p>
+</div>
+<h3 id="error-when-connecting-phone-to-the-notification-server-please-refer-to-the-error-manual-to-resolve-this-issue">Error When Connecting Phone to the Notification Server, Please Refer to the Error Manual to Resolve This Issue</h3>
+<p>If you haven't encountered any notification server error prompts, try restarting the software or your computer. If the issue persists, please submit a support ticket to the developers.</p>
+<h3 id="error-when-processing-data-in-the-client-please-refer-to-the-error-manual-to-resolve-this-issue">Error When Processing Data in the Client, Please Refer to the Error Manual to Resolve This Issue</h3>
+<p>This error occurs when the program receives invalid data from the sender. Such errors are usually caused by bugs when fetching notifications. Try restarting Windows or the sender program (such as Android or the phone link application).</p>
+<p>If the issue persists, please submit a support ticket to the developers.</p>
+<h3 id="error-when-starting-toast-mode-please-refer-to-the-error-manual-to-resolve-this-issue">Error When Starting Toast Mode, Please Refer to the Error Manual to Resolve This Issue</h3>
+<p>Please refer to the <a href="../#_6">Toast Mode</a> section to reinstall the UWP auxiliary program and try again. If the issue persists, please submit a support ticket to the developers.</p>
+<h3 id="error-when-starting-toast-mode-get-the-app-to-open-this-ncatvr-link">Error When Starting Toast Mode, "Get the app to open this 'ncatvr' link"</h3>
+<p>Please refer to the <a href="../#_6">Toast Mode</a> section to reinstall the UWP auxiliary program and try again. If the issue persists, please submit a support ticket to the developers.</p>
+<h3 id="startup-with-steamvr-doesnt-work-or-program-doesnt-remember-my-options-on-next-startup">Startup with SteamVR Doesn't Work or Program Doesn't Remember My Options on Next Startup</h3>
+<p>The program relies on the NotificationCatVR.exe.config file within its folder to remember your preferences. If you delete, move, or overwrite this file, your options will be lost.</p>
+<p>If the NotificationCatVR.exe.config file is not the issue, check if the appconfig.json file in the Steam/config folder has write permissions.</p>
+<h3 id="starting-notificationcat-vr-with-steamvr-causes-steamvr-to-crash-or-notificationcat-vr-crashes-steamvr">Starting NotificationCat VR with SteamVR Causes SteamVR to Crash, or NotificationCat VR Crashes SteamVR</h3>
+<p>If you have verified through experimentation that NotificationCat VR is causing SteamVR to crash, please submit a support ticket to the developers.</p>
+<h3 id="crash-when-receiving-notifications-after-phone-connection-or-enabling-toast-mode">Crash When Receiving Notifications After Phone Connection (or Enabling Toast Mode)</h3>
+<p>Check your OpenVR state. You should start this program after launching SteamVR. If the issue persists, please submit a support ticket to the developers.</p>
+<h3 id="program-unable-to-obtain-computer-ip-address-possibly-due-to-multiple-network-adapters-or-ipv4-addresses-on-your-computer-please-refer-to-the-error-handling-manual-to-resolve-this-issue">Program Unable to Obtain Computer IP Address, Possibly Due to Multiple Network Adapters or IPv4 Addresses on Your Computer, Please Refer to the Error Handling Manual to Resolve This Issue</h3>
+<p>If you have virtualization programs such as Vmware Hyper-v or virtual network tunnel tools like v2ray installed on your computer, the software might create multiple virtual network adapters, making it hard for NotificationCat VR to find the correct WLAN IPv4 address. Manually find your wireless network adapter's IPv4 address using the command prompt or other tools, and connect. If the issue persists, please submit a support ticket to the developers.</p>
+<h2 id="android-errors">Android Errors 📱</h2>
+<p>This section covers errors and solutions for NotificationCat VR on Android.</p>
+<h3 id="unable-to-install-apk-package">Unable to Install APK Package</h3>
+<p>Your Android operating system must be Android 10 or above.</p>
+<h3 id="app-crashes-or-becomes-unresponsive-after-opening">App Crashes or Becomes Unresponsive After Opening</h3>
+<p>When a program fails to start without any error messages or exceptional behavior, it can be a complex issue for developers to diagnose. In such cases, when you encounter these situations, it's recommended to try the following steps:</p>
+<ol>
+<li>Reinstall the app.</li>
+</ol>
+<p>If the above steps fail to resolve the abnormal behavior of the application, please submit a support ticket to the developers.</p>
+<h3 id="unable-to-retrieve-version-number-from-update-server-please-refer-to-the-error-manual-to-resolve-this-issue">Unable to Retrieve Version Number from Update Server, Please Refer to the Error Manual to Resolve This Issue</h3>
+<p>If you encounter this issue, it indicates that your device can't communicate with the software's update server to retrieve the version number. This might be due to the update server being temporarily under maintenance or offline, or your device not having internet access. You can continue using the older version, but this might result in unexpected errors.</p>
+<p>Otherwise, manually visit the <a href="../download/">download page</a> to get the new version.</p>
+<h3 id="connection-failed-please-refer-to-the-error-manual-to-resolve-this-issue">Connection Failed, Please Refer to the Error Manual to Resolve This Issue</h3>
+<p>When attempting to connect your Android device to the computer, you might encounter this issue. Pay attention to the error type and message.</p>
+<ul>
+<li>
+<p>An Invalid IP Address was specified
+   You must input the correct IP address in the input box!</p>
+</li>
+<li>
+<p>Connection timed out
+   Please verify that your IP address is correct or that your Android device is on the same network segment as the PC. You can check the IP using the PC-side software.</p>
+</li>
+</ul>
+<p><img alt="IP" src="../image/ip.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Note on Non-Unique IPs</p>
+<p>If your computer has virtual network adapters or both IPv4 and IPv6 addresses, this function will return the first IP. This IP might not be your WLAN IP!</p>
+</div>
+<ul>
+<li>
+<p>Connection refuse
+   Your IP address is correct, but your PC is rejecting the connection. Refer to the <a href="#pc">Error When Starting the Notification Server, Please Refer to the Error Manual to Resolve This Issue</a> section for solutions.</p>
+</li>
+<li>
+<p>Socket is already connected
+   An Android phone can only connect to one PC device. To reconnect, restart the application.</p>
+</li>
+<li>
+<p>Network unreachable
+  Check your router's forwarding settings.</p>
+</li>
+</ul>
+<h3 id="app-goes-to-background-or-switches-to-other-apps-and-notification-messages-are-not-forwarded">App Goes to Background or Switches to Other Apps, and Notification Messages Are Not Forwarded</h3>
+<p>Please disable any power-saving optimization settings for the app (such as background/sleep freeze).</p>
+<h3 id="successful-connection-but-the-program-doesnt-forward-any-messages">Successful Connection, but the Program Doesn't Forward Any Messages</h3>
+<p>Check if the app has the "Access to All App Notifications" permission enabled.</p>
+<div class="admonition warning">
+<p class="admonition-title">Note for Chinese Android Systems</p>
+<p>Due to modifications of API notification rule permissions by Chinese Android systems (such as MIUI, various OS versions), you need to manually toggle the "Access to All App Notifications" permission every time you start the program! Otherwise, notification forwarding might not work correctly. Native Android systems (such as Pixel) are not affected.</p>
+</div>
+<h3 id="qr-code-connection-mode-doesnt-start-camera-or-hangs">QR Code Connection Mode Doesn't Start Camera or Hangs</h3>
+<p>Check if the app has the "Use Camera" permission enabled.</p>
+<h2 id="toast-mode">Toast Mode 🍞</h2>
+<p>This section covers errors and solutions for the UWP auxiliary program on PC.</p>
+<h3 id="program-hangs-at-the-logo-after-startup-app-crashes-after-startup">Program Hangs at the Logo After Startup / App Crashes After Startup</h3>
+<p>Please refer to the <a href="../#_6">Toast Mode</a> section to reinstall the UWP auxiliary program and try again. If the issue persists, please submit a support ticket to the developers.</p>
+<h3 id="your-system-currently-doesnt-support-toast-notification-forwarding-please-refer-to-the-user-manual-to-resolve-this-issue">Your System Currently Doesn't Support Toast Notification Forwarding, Please Refer to the User Manual to Resolve This Issue</h3>
+<p>Your system version is lower than Windows 10 1809 October Update and cannot use this feature.</p>
+<h3 id="you-must-allow-the-app-to-read-notifications-please-refer-to-the-user-manual-to-resolve-this-issue">You Must Allow the App to Read Notifications, Please Refer to the User Manual to Resolve This Issue</h3>
+<p>You might have denied the app's request to read notifications when the app started. Allow the app's permission again:</p>
+<ol>
+<li>Open Windows Settings and navigate to Privacy and Security.</li>
+<li>Find "Notifications" in App Permissions.</li>
+<li>Allow the app to access notifications.</li>
+<li>Restart the UWP auxiliary program.</li>
+</ol>
+<p>If the issue persists, please refer to the <a href="../#_6">Toast Mode</a> section to reinstall the UWP auxiliary program and try again.</p>
+<h3 id="error-during-permission-handling-please-refer-to-the-user-manual-to-resolve-this-issue">Error During Permission Handling, Please Refer to the User Manual to Resolve This Issue</h3>
+<p>Please refer to the <a href="../#_6">Toast Mode</a> section to reinstall the UWP auxiliary program and try again. If the issue persists, please submit a support ticket to the developers.</p>
+<h3 id="unable-to-connect-to-the-notification-server-please-refer-to-the-error-manual-to-resolve-this-issue">Unable to Connect to the Notification Server! Please Refer to the Error Manual to Resolve This Issue</h3>
+<p>Please refer to the <a href="#pc">Error When Starting the Notification Server, Please Refer to the Error Manual to Resolve This Issue</a> section for solutions. If the issue persists, please refer to the <a href="../#_6">Toast Mode</a> section to reinstall the UWP auxiliary program and try again.</p>
+<h3 id="uwp-auxiliary-program-doesnt-forward-my-windows-notifications">UWP Auxiliary Program Doesn't Forward My Windows Notifications</h3>
+<p>Check if any program is occupying the notification retrieval service. If the issue persists, please refer</p>
+<p>to the <a href="../#_6">Toast Mode</a> section to reinstall the UWP auxiliary program and try again.</p>
+<h2 id="unlisted-errors">Unlisted Errors ❌</h2>
+<p>Please submit a support ticket to the developers.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright Vortex Studio 2018 - 2023 Android is a trademark of Google LLC 
+ iPhone, iCloud, iPad, iPadOS and macOS are trademarks of Apple Inc.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+        
+          <script src="../../javascripts/extra.js"></script>
+        
+      
+    
+  </body>
+</html>
