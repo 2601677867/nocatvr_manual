@@ -348,6 +348,26 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#dashboard" class="md-nav__link">
+    双显卡设备解决Dashboard程序显示问题
+  </a>
+  
+    <nav class="md-nav" aria-label="双显卡设备解决Dashboard程序显示问题">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vidia" class="md-nav__link">
+    以VIDIA 独立显卡为例
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -663,6 +683,26 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#dashboard" class="md-nav__link">
+    双显卡设备解决Dashboard程序显示问题
+  </a>
+  
+    <nav class="md-nav" aria-label="双显卡设备解决Dashboard程序显示问题">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vidia" class="md-nav__link">
+    以VIDIA 独立显卡为例
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -883,6 +923,16 @@ netstat -ano |findstr &quot;8079&quot;
 <p>请检查您的OpenVR状态，您应该在启动SteamVR之后再打开此程序，如果问题仍旧存在请提交开发者工单反馈。</p>
 <h3 id="ipipv4">程序无法获取电脑IP地址，这可能是因为您的电脑有多个网卡或ipv4地址，请参考错误处理手册来解决此问题。</h3>
 <p>如果您的电脑中有安装Vmware Hyper-v等虚拟化程序，或v2ray等虚拟网络隧道工具。软件可能会在您的电脑上创建多个虚拟网卡导致NotificationCat VR无法寻找到正确的WLAN IPV4地址，请使用命令提示符或其他工具手动查找您的无线网卡IPV4地址并连接，如果问题仍旧存在请提交开发者工单反馈。</p>
+<h3 id="dashboard">双显卡设备解决Dashboard程序显示问题</h3>
+<p>由于OpenVR兼容层问题，仪表盘程序无法自动设置程序为高性能GPU显卡启动，这可能会导致您在SteamVR 仪表盘中打开NotificationCat VR设置程序时不会显示任何内容。</p>
+<p><img alt="无法显示" src="../image/broken_dashboard.png" /></p>
+<p>要解决此问题，你需要通过独立显卡驱动程序面板（例如NVIDIA 控制面板）将程序目录中的dashboard.exe程序设置为“独立显卡启动”模式</p>
+<h4 id="vidia">以VIDIA 独立显卡为例</h4>
+<p>在您的任务栏托盘中找到NVIDIA控制中心图标，并右键选择NVIDIA控制面板</p>
+<p><img alt="启动英伟达控制面板" src="../image/nvidia_control.png" /></p>
+<p>在管理3D设置——&gt;程序设置中，添加选择程序目录中的dashboard.exe——&gt;将“为此程序选择首选的图形处理器”设置为：高性能NVIDIA处理器。</p>
+<p><img alt="设置高性能" src="../image/set_mode.png" /></p>
+<p>单击应用保存，重启NCATVR程序即可！</p>
 <h2 id="android">Android端错误📱</h2>
 <p>这个板块包含Android上的NotificationCat VR的错误及解决方案</p>
 <h3 id="apk">无法安装APK包</h3>

@@ -391,6 +391,26 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#resolving-dashboard-program-display-issues-on-dual-graphics-card-devices" class="md-nav__link">
+    Resolving Dashboard Program Display Issues on Dual Graphics Card Devices
+  </a>
+  
+    <nav class="md-nav" aria-label="Resolving Dashboard Program Display Issues on Dual Graphics Card Devices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-using-nvidia-dedicated-graphics-card" class="md-nav__link">
+    Example using NVIDIA Dedicated Graphics Card
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -661,6 +681,26 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#resolving-dashboard-program-display-issues-on-dual-graphics-card-devices" class="md-nav__link">
+    Resolving Dashboard Program Display Issues on Dual Graphics Card Devices
+  </a>
+  
+    <nav class="md-nav" aria-label="Resolving Dashboard Program Display Issues on Dual Graphics Card Devices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-using-nvidia-dedicated-graphics-card" class="md-nav__link">
+    Example using NVIDIA Dedicated Graphics Card
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -881,6 +921,16 @@ netstat -ano |findstr &quot;8079&quot;
 <p>Check your OpenVR state. You should start this program after launching SteamVR. If the issue persists, please submit a support ticket to the developers.</p>
 <h3 id="program-unable-to-obtain-computer-ip-address-possibly-due-to-multiple-network-adapters-or-ipv4-addresses-on-your-computer-please-refer-to-the-error-handling-manual-to-resolve-this-issue">Program Unable to Obtain Computer IP Address, Possibly Due to Multiple Network Adapters or IPv4 Addresses on Your Computer, Please Refer to the Error Handling Manual to Resolve This Issue</h3>
 <p>If you have virtualization programs such as Vmware Hyper-v or virtual network tunnel tools like v2ray installed on your computer, the software might create multiple virtual network adapters, making it hard for NotificationCat VR to find the correct WLAN IPv4 address. Manually find your wireless network adapter's IPv4 address using the command prompt or other tools, and connect. If the issue persists, please submit a support ticket to the developers.</p>
+<h3 id="resolving-dashboard-program-display-issues-on-dual-graphics-card-devices">Resolving Dashboard Program Display Issues on Dual Graphics Card Devices</h3>
+<p>Due to compatibility issues with the OpenVR layer, the dashboard program cannot automatically set the program to start with the high-performance GPU card. This may result in no content being displayed when you open the NotificationCat VR settings program in the SteamVR dashboard.</p>
+<p><img alt="Unable to Display" src="../image/broken_dashboard.png" /></p>
+<p>To address this issue, you need to manually set the dashboard.exe program in the program directory to start in "dedicated graphics card" mode through the control panel of the discrete graphics card driver (e.g., NVIDIA Control Panel).</p>
+<h4 id="example-using-nvidia-dedicated-graphics-card">Example using NVIDIA Dedicated Graphics Card</h4>
+<p>Locate the NVIDIA Control Center icon in your taskbar tray, right-click, and select NVIDIA Control Panel.</p>
+<p><img alt="Launch NVIDIA Control Panel" src="../image/nvidia_control.png" /></p>
+<p>In Manage 3D Settings -&gt; Program Settings, add and select the dashboard.exe in the program directory. Set "Preferred graphics processor for this program" to: High-performance NVIDIA processor.</p>
+<p><img alt="Set to High Performance" src="../image/set_mode.png" /></p>
+<p>Click Apply to save the changes, restart the NCATVR program, and you're good to go!</p>
 <h2 id="android-errors">Android Errors 📱</h2>
 <p>This section covers errors and solutions for NotificationCat VR on Android.</p>
 <h3 id="unable-to-install-apk-package">Unable to Install APK Package</h3>
